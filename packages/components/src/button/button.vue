@@ -1,12 +1,8 @@
 <template>
-  <button>测试按钮</button>
+  <button class="ea-button">测试按钮</button>
 </template>
-<script lang="ts">
-  import { defineComponent } from "vue";
-  export default defineComponent({
-    name: "ea-button",
-    setup() {
-      return {};
-    },
-  });
+
+<script lang="ts" setup name="bmwButton">
+import "./style/index.less";
+// defineOptions({ name: "bmw-button" });
 </script>

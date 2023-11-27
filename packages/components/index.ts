@@ -9,12 +9,3 @@ export default {
     }
   },
 };
-
-// const components: { [key: string]: any } = {
-//   // 组件列表
-// };
-
-// for (let c in components) {
-//   app.use(components[c as keyof typeof components]);
-// }
-

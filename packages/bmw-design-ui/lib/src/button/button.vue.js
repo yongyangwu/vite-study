@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("vue");require("./style/index.css");const t={class:"ea-button"},n=e.defineComponent({name:"bmw-button"}),o=e.defineComponent({...n,setup(u){return(r,c)=>(e.openBlock(),e.createElementBlock("button",t,"测试按钮"))}});exports.default=o;

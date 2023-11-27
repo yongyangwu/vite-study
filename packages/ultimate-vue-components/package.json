@@ -1,0 +1,27 @@
+{
+  "name": "ultimate-vue-components",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "vue3 element-plus 二次封装组件"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "bob",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yongyangwu/ultimate-vue-components.git"
+  }
+}

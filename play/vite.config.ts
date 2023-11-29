@@ -6,5 +6,6 @@ export default defineConfig({
   resolve: {
     extensions: [".js", ".ts", ".vue"],
   },
+
   plugins: [vue(), DefineOptions()],
 });

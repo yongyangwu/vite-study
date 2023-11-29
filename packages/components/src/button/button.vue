@@ -1,7 +1,8 @@
 // button.vue
 <template>
   <button class="ea-button" :class="buttonStyle"><slot /></button>
-  <el-tag>www</el-tag>
+  <el-tag type="primary">www</el-tag>
+  <el-button type="primary">ddd</el-button>
 </template>
 
 <script lang="ts" setup>
@@ -16,5 +17,5 @@ const buttonProps = defineProps<ButtonProps>();
 const buttonStyle = computed(() => {
   return { [`ea-button--${buttonProps.type}`]: buttonProps.type };
 });
-import { ElTag } from "element-plus";
+import { ElTag, ElButton } from "element-plus";
 </script>

@@ -8,8 +8,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
-    "lib": ["esnext", "dom"],
-    "types": ["easyest/lib/src/components"]
+    "lib": ["esnext", "dom"]
   }
 }
 

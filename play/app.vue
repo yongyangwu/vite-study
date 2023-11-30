@@ -1,14 +1,9 @@
 <template>
   <div>
-    <!-- <Button type="primary">主要按钮</Button> -->
-    <el-button type="primary">测试案例222</el-button>
+    <ea-button />
   </div>
 </template>
 <script lang="ts" setup>
-// import { Button } from "@ultimate-vue-components/components";
+// import add from "wuyongyang";
+// console.log(add(1, 1));
 </script>
-<style>
-:root {
-  /* --el-color-primary: green; */
-}
-</style>

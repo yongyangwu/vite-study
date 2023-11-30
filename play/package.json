@@ -14,6 +14,7 @@
     "vite": "^5.0.2"
   },
   "dependencies": {
-    "@ultimate-vue-components/components": "workspace:^1.0.0"
+    "@easyest/components": "workspace:^1.0.0",
+    "wuyongyang": "workspace:^1.0.0"
   }
 }

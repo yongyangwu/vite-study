@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("./add/add.js"),r=require("./sum/sum.js");require("./sum/index.css.js");exports.add=e.add;exports.sum=r.sum;

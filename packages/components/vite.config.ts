@@ -21,7 +21,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../easyest/es",
+          dir: "../bobwu/es",
         },
         {
           //打包格式
@@ -32,20 +32,20 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../easyest/lib",
+          dir: "../bobwu/lib",
         },
       ],
     },
     lib: {
       entry: "./index.ts",
-      name: "easyest",
+      name: "bobwu",
     },
   },
   plugins: [
     vue(),
     dts({
       entryRoot: "./src",
-      outDir: ["../easyest/es/src", "../easyest/lib/src"],
+      outDir: ["../bobwu/es/src", "../bobwu/lib/src"],
     }),
   ],
 });

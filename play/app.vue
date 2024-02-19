@@ -9,7 +9,7 @@ import { reactive } from "vue";
 import MyComponent from "./src/demo.vue";
 const myComponentInstance = new MyComponent();
 // const myComponentInstance: InstanceType<typeof MyComponent> = new MyComponent(); // 创建 MyComponent 实例，并指定类型
-  myComponentInstance.
+myComponentInstance;
 const list = reactive([
   {
     label: "UserName",

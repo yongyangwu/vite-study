@@ -70,25 +70,13 @@ importers:
 
   packages/js-demo: {}
 
-  packages/test: {}
-
-  packages/ts-demo:
-    devDependencies:
-      vite:
-        specifier: ^5.0.2
-        version: 5.0.4(@types/node@20.10.1)(less@4.2.0)(sass@1.69.5)
-      vite-plugin-dts:
-        specifier: ^3.6.3
-        version: 3.6.3(@types/node@20.10.1)(typescript@5.3.2)(vite@5.0.4)
+  packages/ts-demo: {}
 
   play:
     dependencies:
-      '@easyest/components':
+      '@bobwu/components':
         specifier: workspace:^1.0.0
         version: link:../packages/components
-      wuyongyang:
-        specifier: workspace:^1.0.0
-        version: link:../packages/test
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^4.5.0
